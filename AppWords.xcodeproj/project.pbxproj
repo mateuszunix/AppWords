@@ -14,6 +14,8 @@
 		619A7E7320460BFF00D65470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619A7E7120460BFF00D65470 /* LaunchScreen.storyboard */; };
 		619A7E7E20460C0000D65470 /* AppWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A7E7D20460C0000D65470 /* AppWordsTests.swift */; };
 		619A7E8920460C0000D65470 /* AppWordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A7E8820460C0000D65470 /* AppWordsUITests.swift */; };
+		619A7E9920460CE900D65470 /* Intruduction.png in Resources */ = {isa = PBXBuildFile; fileRef = 619A7E9720460CE800D65470 /* Intruduction.png */; };
+		619A7E9A20460CE900D65470 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 619A7E9820460CE800D65470 /* Login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		619A7E8420460C0000D65470 /* AppWordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppWordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		619A7E8820460C0000D65470 /* AppWordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWordsUITests.swift; sourceTree = "<group>"; };
 		619A7E8A20460C0000D65470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619A7E9720460CE800D65470 /* Intruduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Intruduction.png; sourceTree = "<group>"; };
+		619A7E9820460CE800D65470 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		619A7E5C20460BFF00D65470 = {
 			isa = PBXGroup;
 			children = (
+				619A7E9620460CAF00D65470 /* Images */,
 				619A7E6720460BFF00D65470 /* AppWords */,
 				619A7E7C20460C0000D65470 /* AppWordsTests */,
 				619A7E8720460C0000D65470 /* AppWordsUITests */,
@@ -123,6 +128,15 @@
 				619A7E8A20460C0000D65470 /* Info.plist */,
 			);
 			path = AppWordsUITests;
+			sourceTree = "<group>";
+		};
+		619A7E9620460CAF00D65470 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				619A7E9720460CE800D65470 /* Intruduction.png */,
+				619A7E9820460CE800D65470 /* Login.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,8 @@
 				619A7E7320460BFF00D65470 /* LaunchScreen.storyboard in Resources */,
 				619A7E7020460BFF00D65470 /* Assets.xcassets in Resources */,
 				619A7E6E20460BFF00D65470 /* Main.storyboard in Resources */,
+				619A7E9A20460CE900D65470 /* Login.png in Resources */,
+				619A7E9920460CE900D65470 /* Intruduction.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
