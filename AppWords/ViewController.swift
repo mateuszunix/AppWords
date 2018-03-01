@@ -22,8 +22,16 @@ class ViewController: UIViewController {
 
     
     
+    @IBOutlet weak var loginField: UITextField!
     
     
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
+    
+    
+    @IBAction func loginButton(_ sender: UIButton) {
+    }
     
 
 }
